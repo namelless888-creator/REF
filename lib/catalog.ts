@@ -1,0 +1,43 @@
+import type { CatalogItem } from '@/components/ui/hero-3';
+
+const img = (n: number) => `/images/products/${String(n).padStart(2, '0')}.png`;
+
+// Real packaging photos supplied by the client (brand: MARZO and sub-lines).
+export const CATALOG: CatalogItem[] = [
+  { src: img(1), name: 'MARZO «Классическое» пломбир ванильный в белой шоколадной глазури' },
+  { src: img(2), name: 'MARZO «Фисташка-шоколад» в вафельном рожке' },
+  { src: img(3), name: 'MARZO Лёд фруктовый «Дыня»' },
+  { src: img(4), name: 'MARZO «Солёная карамель» в вафельном рожке', hot: true },
+  { src: img(5), name: 'MARZO Эскимо пломбирное в шоколадной глазури' },
+  { src: img(6), name: 'MARZO «Сгущёнка» в вафельном рожке' },
+  { src: img(7), name: 'MARZO «Черника» в вафельном рожке' },
+  { src: img(8), name: 'MARZO Эскимо фисташковое в тёмном шоколаде' },
+  { src: img(9), name: 'MARZO «Со вкусом мёда» в вафельном рожке' },
+  { src: img(10), name: 'MARZO Лёд фруктовый «Гранат»', hot: true },
+  { src: img(11), name: 'MARZO Шоколадное (ГОСТ 31457-2012)', hot: true },
+  { src: img(12), name: 'MARZO «Малина» эскимо с кусочками ягод' },
+  { src: img(13), name: 'MARZO Лёд фруктовый «Манго-Маракуйя»', hot: true },
+  { src: img(14), name: 'MARZO Лёд фруктовый «Личи-Ваниль»', hot: true },
+  { src: img(15), name: 'MARZO «Клубника» эскимо в клубничной глазури' },
+  { src: img(16), name: 'MARZO Пломбир ванильный, для всей семьи' },
+  { src: img(17), name: 'MARZO Пломбир шоколадный, для всей семьи' },
+  { src: img(18), name: 'MARZO «Классический» ванильный рожок' },
+  { src: img(19), name: 'MARZO «Сыр-Абрикос-Грецкий орех» в вафельном рожке', hot: true },
+  { src: img(20), name: '«Настоящий пломбир» 18% в вафельном рожке' },
+  { src: img(21), name: '«Бурёнка» пломбир ванильный из свежего молока' },
+  { src: img(22), name: '«Бурёнка» пломбир шоколадный из свежего молока' },
+  { src: img(23), name: 'Стаканчик «Бабл Гам»' },
+  { src: img(24), name: 'Стаканчик «Шоколад»' },
+  { src: img(25), name: 'Стаканчик «Малина»' },
+  { src: img(26), name: '«My Love» сердце, шоколад-банан', hot: true },
+  { src: img(27), name: '«My Love» сердце, вишня-банан', hot: true },
+  { src: img(28), name: 'Фруктовый лёд «Мохито клубничный»', hot: true },
+  { src: img(29), name: 'Эскимо «Маракеш» в шоколадной глазури', hot: true },
+  { src: img(30), name: 'Эскимо «Ванильное небо»', hot: true },
+  { src: img(31), name: '«Шатенка в шоколаде» эскимо' },
+  { src: img(32), name: 'Пломбир ванильный' },
+  { src: img(33), name: 'Пломбир шоколадный' },
+  { src: img(34), name: 'Пломбир, ассорти' },
+  { src: img(35), name: 'Пломбир ванильный, малый брикет' },
+  { src: img(36), name: 'Фруктовый лёд «Фрукт-Frost»', hot: true },
+];
